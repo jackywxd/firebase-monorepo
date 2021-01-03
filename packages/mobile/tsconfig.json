@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": ["__tests__", "*.js", "**/*.js", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
