@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "types": ["jest"],
+    "baseUrl": "./src"
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": ["**/*.ts"],
+  "files": ["./src/index.ts"]
+}

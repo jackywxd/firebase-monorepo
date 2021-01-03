@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "source": "webpack",
+    "predeploy": ["npm --prefix \"functions\" run webpack"]
+  }
+}

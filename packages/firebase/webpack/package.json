@@ -1,0 +1,20 @@
+{
+  "name": "cloud-functions",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "cron-parser": "^2.18.0",
+    "firebase-admin": "^9.4.1",
+    "firebase-functions": "^3.13.0",
+    "twilio": "^3.54.1"
+  },
+  "devDependencies": {},
+  "private": true
+}
